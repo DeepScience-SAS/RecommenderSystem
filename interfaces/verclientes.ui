@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_verclientes</class>
+ <widget class="QDialog" name="Dialog_verclientes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>752</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="clientes_tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>406</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>33</number>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>135</number>
+   </attribute>
+   <attribute name="verticalHeaderMinimumSectionSize">
+    <number>33</number>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>33</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Cliente</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>204</red>
+      <green>204</green>
+      <blue>204</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Fecha última compra</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>204</red>
+      <green>204</green>
+      <blue>204</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Valor última compra</string>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>204</red>
+      <green>204</green>
+      <blue>204</blue>
+     </color>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="verclientes_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ver cliente</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="verClientes_label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>289</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ver Clientes</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
